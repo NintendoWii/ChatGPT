@@ -1,8 +1,10 @@
-﻿#input API Key
+#input API Key
 $api_key= "<Paste API-Key here>"
 
 #define CSV Headers
-$csv_header= "Source_IP, Source_Port, Dest_IP, Dest_Port"
+#Ex: $csv_header= "Name,Salary,Position,Tenure"
+$csv_header= "<Paste Header Here"
+##################################################
 
 #replace headers Just in case Chat GPT keeps track of what exactly you're trying to do
 function mangle-headers($csv_header){
