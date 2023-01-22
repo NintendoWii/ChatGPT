@@ -20,7 +20,7 @@ $api_key= "<Paste API-Key here>"
 
 #define CSV Headers
 #Ex: $csv_header= "Name,Salary,Position,Tenure"
-$csv_header= "<Paste Header Here"
+$csv_header= "<Paste Header Here">
 ##################################################
 
 #replace headers Just in case Chat GPT keeps track of what exactly you're trying to do
