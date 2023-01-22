@@ -4,11 +4,11 @@ After defining the headers and specifying the question, the GPT3 will create the
 
 Example CSV Headers: name, Salary,Position,Tenure
 Example question: Write me a python script that reads from a .csv with the following headers: name, Salary,Position,Tenure and...
-sorts the data decending by salary and removes all results with a tenure less than 10.
+sorts the data descending by salary and removes all results with a tenure less than 10.
 
 The script will obfuscate the question prior to sending it to GPT
 Example question as sent to GPT: Write me a python script that reads from a .csv with the following headers: ZFHDGERLY,XZHUKWUEEUY,OVQLFJT,DFLKZTIYO and...
-sorts the data decending by ZFHDGERLY and removes all results with a DFLKZTIYO less than 10.
+sorts the data descending by ZFHDGERLY and removes all results with a DFLKZTIYO less than 10.
 
 Once the results are recieved from GPT, the script will de-obfuscate the results by replaceing the random jargon with the original data.
 
